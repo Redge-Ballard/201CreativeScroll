@@ -1,0 +1,55 @@
+body {
+	background-image: url('img/metal.png');
+}
+.line {
+	background-image: url('img/line.png'); 
+	height: 10px;
+	width: 120%;
+	padding: 10px;
+	margin-bottom: 600px;
+	transition: all 1s;
+}
+
+#way1 {
+	margin-top: 600px;
+}
+
+.imgs img {
+	position: fixed;
+	margin-left: 35%;
+	margin-top: -1500px;
+}
+
+.piece {
+	transition: all 2s ease-out;
+}
+
+#man {
+	position: fixed;
+	margin-left: 35%;
+	margin-top: -450px;
+}
+#circle {
+	position: fixed;
+	margin-left: 35%;
+	margin-top: -450px;
+}
+
+#end {
+	display: none;
+	margin-top: 600px;
+	margin-left: 20%;
+    transition: margin-top 1s;
+}
+
+#flash {
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background:rgba(255,255,255,0);
+    transition: background-color 0.2s linear;
+}
